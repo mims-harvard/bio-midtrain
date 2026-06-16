@@ -1,0 +1,16 @@
+torch
+torchvision
+transformers>=4.51.0  # Qwen3 (e.g. Qwen/Qwen3-1.7B) requires 4.51+
+accelerate
+qwen-vl-utils
+jupyter
+datasets
+peft
+pytorch_lightning
+wandb
+# trl[vllm]
+bitsandbytes
+deepspeed
+
+# Evo2 (--dna_is_evo2) needs flash-attn (compiled CUDA ext) and evo2; pip -r cannot build them reliably.
+# After this file: bash install_evo2_stack.sh (see comment in env.sh).

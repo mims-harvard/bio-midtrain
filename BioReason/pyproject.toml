@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioreason"
+version = "0.1.0"
+description = "Bio-related Reasoning with Language Models"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers",
+    "accelerate",
+    "qwen-vl-utils",
+    "jupyter",
+    "datasets",
+    "peft",
+    "pytorch_lightning",
+    "wandb",
+    "trl",
+    "bitsandbytes",
+    "deepspeed",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+]
+
+[tool.setuptools]
+packages = ["bioreason"]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true 

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "How Post-Training Shapes Biological Reasoning Models"
+authors:
+  - family-names: Fesser
+    given-names: Lukas
+  - family-names: Zhang
+    given-names: Hanlin
+  - family-names: Li
+    given-names: Michelle M.
+  - family-names: Wang
+    given-names: Eric
+  - family-names: Perozzi
+    given-names: Bryan
+  - family-names: Azizi
+    given-names: Shekoofeh
+  - family-names: Kakade
+    given-names: Sham M.
+  - family-names: Zitnik
+    given-names: Marinka
+preferred-citation:
+  type: article
+  title: "How Post-Training Shapes Biological Reasoning Models"
+  year: 2026
+  notes: "Preprint"
+  authors:
+    - family-names: Fesser
+      given-names: Lukas
+    - family-names: Zhang
+      given-names: Hanlin
+    - family-names: Li
+      given-names: Michelle M.
+    - family-names: Wang
+      given-names: Eric
+    - family-names: Perozzi
+      given-names: Bryan
+    - family-names: Azizi
+      given-names: Shekoofeh
+    - family-names: Kakade
+      given-names: Sham M.
+    - family-names: Zitnik
+      given-names: Marinka

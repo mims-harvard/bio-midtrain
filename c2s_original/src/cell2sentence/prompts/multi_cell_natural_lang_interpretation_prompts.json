@@ -1,0 +1,22 @@
+{
+    "model_input": [
+        "The following is a list of {num_genes} gene names ordered by descending expression level for {num_cells} different {organism} cells. Your task is to produce an abstract summary summarizing the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Below is a list of {num_genes} genes in decreasing order of expression in {num_cells} {organism} cells. Your task is to produce an abstract summary summarizing the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Listed below are the top {num_genes} expressed genes in decreasing order of expression for {num_cells} distinct {organism} cells. Based on this, generate an abstract summary which summarizes the relevant biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Presented are the top {num_genes} genes by descending expression level from {num_cells} {organism} cells. Your task is to produce an abstract summary describing the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "This list shows {num_genes} genes ranked by descending expression in {num_cells} {organism} cells. From this information, create an abstract summary which summarizes the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Provided below is an expression-ranked list of {num_genes} genes for {num_cells} different {organism} cells. Based on this, produce an abstract summary describing the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Here are the top {num_genes} expressed genes from {num_cells} distinct {organism} cells sorted by decreasing expression level. From this information, produce an abstract summary describing the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Review the following list of {num_genes} highly expressed genes in order of descending expression in {num_cells} {organism} cells. From this, create an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Examine the top {num_genes} genes ordered by descending expression level in {num_cells} {organism} cells. Based on this information, generate an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Here is a sequence of the highest expressed {num_genes} genes from {num_cells} different {organism} cells, ordered by descending expression. Using this, your task is to create an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Consider these {num_genes} highly expressed genes, ordered by descending expression, from {num_cells} {organism} cells. Using this, your task is to generate an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "The following is a list of the top {num_genes} expressed genes from {num_cells} different {organism} cells, in descending order of expression. Based on this, your task is to create an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Given below are lists of the top {num_genes} genes ordered by decreasing expression for {num_cells} {organism} cells. Using this information, generate an abstract summary which summarizes the biological insights contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Presented below are the top {num_genes} genes, arranged by descending expression level, from {num_cells} different {organism} cells. From this, please write an abstract summary which summarizes the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:",
+        "Given below is a ranking of the top {num_genes} expressed genes in {num_cells} different {organism} cells, arranged in order of descending expression level. Your task is to write an abstract summary which summarizes the biological information contained in these cells.\n{multi_cell_sentences}.\nAbstract summary:"
+    ],
+    "response": [
+        "{abstract}."
+    ]
+}

@@ -1,0 +1,46 @@
+# Consolidated Python dependencies for bio-post (DNA + protein components).
+# Derived from BioReason/pyproject.toml and BioReason-Pro/pyproject.toml.
+# Python 3.11+ and a CUDA GPU are required for training/evaluation.
+#
+# Per-component installs (recommended: a separate env per component) are in the
+# top-level README. This file lists the pip-installable runtime dependencies;
+# three packages need special build steps and are NOT listed below:
+#   - esm           protein encoder; install with:  pip install esm --no-deps
+#   - flash-attn    install AFTER torch:            pip install flash-attn --no-build-isolation --no-cache-dir
+#   - evo2 / vortex DNA encoder stack:              bash BioReason/install_evo2_stack.sh
+
+# --- core (shared by DNA and protein) ---
+torch>=2.6.0,<2.8.0
+torchvision
+transformers>=4.51.0,<5.0.0
+accelerate
+datasets
+peft
+pytorch_lightning
+wandb
+trl
+bitsandbytes
+deepspeed
+huggingface_hub
+safetensors
+
+# --- DNA (BioReason) ---
+qwen-vl-utils
+jupyter
+
+# --- protein (BioReason-Pro) ---
+vllm>=0.9.0
+goatools
+cafaeval
+colorama
+typing-extensions
+triton
+sentence-transformers
+torch_geometric
+networkx
+obonet
+
+# --- common utilities ---
+requests
+tqdm
+pandas
